@@ -8,7 +8,7 @@ Content-Type: application/json
 {
     "name":"spider man",
     "genre": "Epic",
-    "type": 2009, 
+    "type":  90, 
     "releaseDate": "2009-06-06"
 }
 ###
