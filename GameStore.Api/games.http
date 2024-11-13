@@ -15,12 +15,11 @@ Content-Type: application/json
 PUT http://localhost:5253/games/2
 Content-Type:  application/json
 
-  {
-    "id": 2,
-    "name": "Mortal Combact 4",
-    "genre": "Fight",
-    "type": 4,
-    "releaseDate": "1999-11-01"
-  },
+{
+    "name":"spider man",
+    "genre": "Epic",
+    "type":  9000, 
+    "releaseDate": "2009-06-06"
+}
 ###
 DELETE http://localhost:5253/games/1

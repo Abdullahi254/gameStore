@@ -59,6 +59,7 @@ public static class GamesEndpoints
         // update game
         group.MapPut("/{id}", (int id, UpdateGameDto newGame) =>
         {
+            Console.WriteLine(newGame);
             // find the game in games
             int i = games.FindIndex(game => game.Id == id);
             if (i == -1)
